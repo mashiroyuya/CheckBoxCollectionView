@@ -14,6 +14,9 @@
 		947CAD091C8482CA006E9E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947CAD071C8482CA006E9E21 /* LaunchScreen.storyboard */; };
 		947CAD141C8482CA006E9E21 /* CheckBoxCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD131C8482CA006E9E21 /* CheckBoxCollectionViewTests.swift */; };
 		947CAD1F1C8482CB006E9E21 /* CheckBoxCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD1E1C8482CB006E9E21 /* CheckBoxCollectionViewUITests.swift */; };
+		947CAD2D1C8482F0006E9E21 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD2C1C8482F0006E9E21 /* CheckBoxView.swift */; };
+		947CAD311C8483DD006E9E21 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD301C8483DD006E9E21 /* CustomCollectionViewCell.swift */; };
+		947CAD331C84F600006E9E21 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD321C84F600006E9E21 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		947CAD1A1C8482CA006E9E21 /* CheckBoxCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		947CAD1E1C8482CB006E9E21 /* CheckBoxCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxCollectionViewUITests.swift; sourceTree = "<group>"; };
 		947CAD201C8482CB006E9E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		947CAD2C1C8482F0006E9E21 /* CheckBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBoxView.swift; path = ../../multicollectionView/multicollectionView/CheckBoxView.swift; sourceTree = "<group>"; };
+		947CAD301C8483DD006E9E21 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCollectionViewCell.swift; path = ../../Nagomi/Nagomi/CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		947CAD321C84F600006E9E21 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = ../../PicCheckBox/PicCheckBox/CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				947CACFE1C8482CA006E9E21 /* AppDelegate.swift */,
 				947CAD001C8482CA006E9E21 /* ViewController.swift */,
+				947CAD2C1C8482F0006E9E21 /* CheckBoxView.swift */,
+				947CAD301C8483DD006E9E21 /* CustomCollectionViewCell.swift */,
+				947CAD321C84F600006E9E21 /* CollectionViewController.swift */,
 				947CAD021C8482CA006E9E21 /* Main.storyboard */,
 				947CAD051C8482CA006E9E21 /* Assets.xcassets */,
 				947CAD071C8482CA006E9E21 /* LaunchScreen.storyboard */,
@@ -260,7 +269,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				947CAD011C8482CA006E9E21 /* ViewController.swift in Sources */,
+				947CAD311C8483DD006E9E21 /* CustomCollectionViewCell.swift in Sources */,
+				947CAD2D1C8482F0006E9E21 /* CheckBoxView.swift in Sources */,
 				947CACFF1C8482CA006E9E21 /* AppDelegate.swift in Sources */,
+				947CAD331C84F600006E9E21 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CheckBoxCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.mashirotest.CheckBoxCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CheckBoxCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.mashirotest.CheckBoxCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";

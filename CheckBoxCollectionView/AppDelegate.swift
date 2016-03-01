@@ -2,9 +2,6 @@
 //  AppDelegate.swift
 //  CheckBoxCollectionView
 //
-//  Created by 山城悠 on 2016/02/29.
-//  Copyright © 2016年 山城悠. All rights reserved.
-//
 
 import UIKit
 
