@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942E3E131C868FA800980B66 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E3E121C868FA800980B66 /* CheckBoxView.swift */; };
+		942E3E151C868FE200980B66 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942E3E141C868FE200980B66 /* CustomCollectionViewCell.swift */; };
 		947CACFF1C8482CA006E9E21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CACFE1C8482CA006E9E21 /* AppDelegate.swift */; };
-		947CAD011C8482CA006E9E21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD001C8482CA006E9E21 /* ViewController.swift */; };
+		947CAD011C8482CA006E9E21 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD001C8482CA006E9E21 /* CollectionViewController.swift */; };
 		947CAD041C8482CA006E9E21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947CAD021C8482CA006E9E21 /* Main.storyboard */; };
 		947CAD061C8482CA006E9E21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 947CAD051C8482CA006E9E21 /* Assets.xcassets */; };
 		947CAD091C8482CA006E9E21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 947CAD071C8482CA006E9E21 /* LaunchScreen.storyboard */; };
 		947CAD141C8482CA006E9E21 /* CheckBoxCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD131C8482CA006E9E21 /* CheckBoxCollectionViewTests.swift */; };
 		947CAD1F1C8482CB006E9E21 /* CheckBoxCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD1E1C8482CB006E9E21 /* CheckBoxCollectionViewUITests.swift */; };
-		947CAD2D1C8482F0006E9E21 /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD2C1C8482F0006E9E21 /* CheckBoxView.swift */; };
-		947CAD311C8483DD006E9E21 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD301C8483DD006E9E21 /* CustomCollectionViewCell.swift */; };
-		947CAD331C84F600006E9E21 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947CAD321C84F600006E9E21 /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +36,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		942E3E121C868FA800980B66 /* CheckBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		942E3E141C868FE200980B66 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 		947CACFB1C8482CA006E9E21 /* CheckBoxCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckBoxCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		947CACFE1C8482CA006E9E21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		947CAD001C8482CA006E9E21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		947CAD001C8482CA006E9E21 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		947CAD031C8482CA006E9E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		947CAD051C8482CA006E9E21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		947CAD081C8482CA006E9E21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,9 +51,6 @@
 		947CAD1A1C8482CA006E9E21 /* CheckBoxCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckBoxCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		947CAD1E1C8482CB006E9E21 /* CheckBoxCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxCollectionViewUITests.swift; sourceTree = "<group>"; };
 		947CAD201C8482CB006E9E21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		947CAD2C1C8482F0006E9E21 /* CheckBoxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckBoxView.swift; path = ../../multicollectionView/multicollectionView/CheckBoxView.swift; sourceTree = "<group>"; };
-		947CAD301C8483DD006E9E21 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCollectionViewCell.swift; path = ../../Nagomi/Nagomi/CustomCollectionViewCell.swift; sourceTree = "<group>"; };
-		947CAD321C84F600006E9E21 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = ../../PicCheckBox/PicCheckBox/CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				947CACFE1C8482CA006E9E21 /* AppDelegate.swift */,
-				947CAD001C8482CA006E9E21 /* ViewController.swift */,
-				947CAD2C1C8482F0006E9E21 /* CheckBoxView.swift */,
-				947CAD301C8483DD006E9E21 /* CustomCollectionViewCell.swift */,
-				947CAD321C84F600006E9E21 /* CollectionViewController.swift */,
+				947CAD001C8482CA006E9E21 /* CollectionViewController.swift */,
+				942E3E121C868FA800980B66 /* CheckBoxView.swift */,
+				942E3E141C868FE200980B66 /* CustomCollectionViewCell.swift */,
 				947CAD021C8482CA006E9E21 /* Main.storyboard */,
 				947CAD051C8482CA006E9E21 /* Assets.xcassets */,
 				947CAD071C8482CA006E9E21 /* LaunchScreen.storyboard */,
@@ -268,11 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				947CAD011C8482CA006E9E21 /* ViewController.swift in Sources */,
-				947CAD311C8483DD006E9E21 /* CustomCollectionViewCell.swift in Sources */,
-				947CAD2D1C8482F0006E9E21 /* CheckBoxView.swift in Sources */,
+				947CAD011C8482CA006E9E21 /* CollectionViewController.swift in Sources */,
+				942E3E151C868FE200980B66 /* CustomCollectionViewCell.swift in Sources */,
+				942E3E131C868FA800980B66 /* CheckBoxView.swift in Sources */,
 				947CACFF1C8482CA006E9E21 /* AppDelegate.swift in Sources */,
-				947CAD331C84F600006E9E21 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +495,7 @@
 				947CAD251C8482CB006E9E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		947CAD261C8482CB006E9E21 /* Build configuration list for PBXNativeTarget "CheckBoxCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +504,7 @@
 				947CAD281C8482CB006E9E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		947CAD291C8482CB006E9E21 /* Build configuration list for PBXNativeTarget "CheckBoxCollectionViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +513,7 @@
 				947CAD2B1C8482CB006E9E21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
